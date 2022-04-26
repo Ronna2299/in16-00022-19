@@ -1,0 +1,23 @@
+.flexbox-container{
+    display: flex;
+    justify-content: center;/*can use start,center,end,space between*/
+    /*align-items: center;*/
+    /* align-items: flex-start;can use start,center,end,stretch */
+    /* flex-direction: column; */
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid rgb(36, 35, 35);
+    background-color: #ccc;
+}
+
+.flexbox-item1{
+    min-height: 100px;
+}
+.flexbox-item2{
+    min-height: 200px;
+}
+.flexbox-item3{
+    min-height: 300px;
+}
